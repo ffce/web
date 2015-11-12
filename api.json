@@ -1,0 +1,77 @@
+{
+  "name": "Freifunk Celle",
+  "url": "https://freifunk-celle.de",
+  "location": {
+    "city": "Celle",
+    "country": "DE",
+    "lat": 52.623,
+    "lon": 10.076
+  },
+  "contact": {
+    "email": "info@freifunk-celle.de",
+    "twitter": "@FreifunkCelle"
+  },
+  "state": {
+    "nodes": 11,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Free internet access"
+    ],
+    "lastchange": "2015-10-24T20:26:39.360Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "https://map.freifunk-celle.de/",
+      "interval": "10 min",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
+    {
+      "url": "https://map.freifunk-celle.de/data/nodelist.json",
+      "interval": "10 min",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "gluon-ffce-0.6+exp20150918",
+      "url": "https://freifunk-celle.de/stable/"
+    },
+    "dns": [
+      {
+        "domainname": "freifunk-celle.de",
+        "nameserver": [
+          "10.252.0.1",
+          "fd92:2dff:d232::1"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "fd92:2dff:d232::/48"
+        },
+        {
+          "network": "2001:470:743f::/48"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.252.0.0/18"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational"
+    ]
+  },
+  "api": "0.4.9"
+}
